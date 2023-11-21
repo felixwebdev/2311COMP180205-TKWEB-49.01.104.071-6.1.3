@@ -1,0 +1,166 @@
+up* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+html {
+   font-family: Arial, Helvetica, sans-serif; 
+   height: 1400px;
+} 
+
+body {
+    margin-top: 30px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 5px #333;
+    height: 1350px;
+}
+
+#left-side {
+    float: left;
+    width: 400px;
+    background-color: #73767a;
+    position: relative;
+    height: 100%;
+}
+
+#left-side .fullname,
+.sub-fullname {
+   color: white;
+   font-weight: 1.5;
+}
+
+#left-side .anhdaidien, 
+#left-side .fullname {
+  margin-top: 30px;
+}
+
+#left-side .anhdaidien, 
+#left-side .fullname,
+#left-side .sub-fullname {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#left-side .anh-dai-dien-img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+#left-side .section {
+   margin-top: 30px;
+   padding: 0 20px;
+   color: white;
+}
+
+.tieu-de {
+    font-weight: 1.5;
+}
+
+.lienhe-list {
+   padding-top: 10px;
+}
+
+.list-items {
+  list-style-type: none;
+  line-height: 2;
+  letter-spacing: 0.15px;
+}
+
+#left-side .icon {
+
+}
+
+#left-side .tieu-de {
+}
+
+#left-side .kynang-list {
+ padding-left: 20px;
+}
+
+#left-side .list-item {
+    padding: 10px 0 10px;
+}
+  
+#left-side .list-item p {
+    padding-top: 5px;
+  }
+
+#left-side .chungchi-items h3 {
+    padding-top: 10px;
+}
+
+#left-side .chungchi-items p{
+    padding: 10px 0;
+    line-height: 1.4;
+}
+
+
+#right-side {
+    position: relative;
+    width: 800px;
+    float: right;
+}
+
+#right-side .section {
+  padding-left: 20px;
+  margin-top: 30px;
+}
+#right-side .tieu-de {
+   padding: 5px;
+   display: inline-block;
+   float: left;
+   color: #333;
+}
+
+hr {
+    border:none;
+    border-top:2px solid #333;
+    color:#fff;
+    background-color:#fff;
+    height:1px;
+    width: 100%;
+    line-height: 40.4px;
+}
+
+#right-side .hoc-van-noidung {
+    margin: 20px 10px 20px 20px;
+    text-align: justify;
+}
+
+#right-side .hoc-van-noidung p {
+   margin-top: 10px;
+   padding-left: 7px;
+   line-height: 1.2;
+}
+
+.box {
+    width: 80%;
+    height: 6px;
+    background-color: white;
+}
+
+.box-trai,.box-trai-css, .box-trai-java{
+    background-color: black;
+    height: 6px;
+    float: left;
+}
+.box-trai {
+    width: 90%;
+}
+
+.box-trai-css {
+    width: 70%;
+}
+
+.box-trai-java {
+    width: 40%;
+}
+
